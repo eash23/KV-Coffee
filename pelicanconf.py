@@ -4,11 +4,12 @@ SITEURL = ""
 SITEDESCRIPTION = "Stay Updated on KV Coffee News & Events"
 THEME = 'themes/mediumfox/pelican-mediumfox'
 PATH = "content"
-STATIC_PATHS=['images', 'pages']
+STATIC_PATHS=['images', 'pages', 'themes/css/']
 TIMEZONE = 'America/Los_Angeles'
 DISPLAY_PAGES_ON_MENU = True
 DEFAULT_LANG = 'en'
 FAVICON = '/favicon.ico'
+CSS_FILE = 'screen.css'
 
 EXTRA_PATH_METADATA = {
     '/favicon.ico': {'path': 'favicon.ico'},  # and this
