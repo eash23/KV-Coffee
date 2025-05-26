@@ -20,7 +20,54 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline;
 }
+#pages {
+  list-style-type: none;
+  display: inline
+}
+#pages > li {
+  display: inline;
+  padding-inline: 10px;
+}
+.bolt-icon-after::after {
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-family: "font awesome 5 free";
+  color: #f9ce46;
+  content: "\f0e7";
+  font-size: 80%;
+  padding-left: .5rem;
+  display: inline-block
+}
 
+.bolt-icon-before::before {
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-family: "font awesome 5 free";
+  color: #f9ce46;
+  content: "\f0e7";
+  font-size: 80%;
+  padding-right: .5rem;
+  display: inline-block
+}
+.overlay-rectangle {
+  border-radius: 25px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30mm;
+  font-family:monospace;
+  position: fixed; /* Or absolute depending on the desired behavior */
+  right: 30%;
+  top: 10%;
+  width: 500px;
+  height: 400px;
+  transform: rotate(15deg);
+  background-color: red;
+  z-index: 1000; /* Ensure it's on top of the content */
+  opacity: .8; /* Optional: Adjust transparency */
+  /* You can add more styling here, like rounded corners, etc. */
+}
 /* line 22, ../../../.rvm/gems/ruby-1.9.3-p551/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;

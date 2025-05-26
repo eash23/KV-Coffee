@@ -1,0 +1,3 @@
+[submodule "themes/mediumfox/pelican-mediumfox"] 
+  path = themes/mediumfox/pelican-mediumfox 
+  url = git://github.com/cprieto/pelican-mediumfox
